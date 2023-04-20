@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "dev": "tsnd --respawn --quiet --clear ./src"
+    "dev": "tsnd --respawn --quiet --clear ./src",
+    "build":"tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",

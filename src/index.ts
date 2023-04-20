@@ -1,8 +1,8 @@
 import 'dotenv/config';
 import { server } from './server/Server';
 
-server.listen(process.env.SERVER_PORT, () =>
-  console.log(
-    `Server start to ${process.env.BASE_URL}:${process.env.SERVER_PORT}`
-  )
+const port = process.env.SERVER_PORT || 3333;
+
+server.listen(port, () =>
+  console.log(`Server start to ${process.env.BASE_URL}:${port}`)
 );
