@@ -1,0 +1,31 @@
+{
+  "name": "api-rest-nodejs-ts",
+  "author": "Cristian Etchebest",
+  "version": "1.0.0",
+  "description": "Curso Node TS",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --quiet --clear ./src"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.12",
+    "@types/yup": "^0.32.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ]
+}
